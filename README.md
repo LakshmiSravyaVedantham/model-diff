@@ -75,6 +75,12 @@ src/model_diff/
 
 Model calls are issued concurrently using `threading`, so wall time equals the slowest model rather than the sum of all models.
 
+## Real-World Example: PR Review Experiment
+
+See [examples/pr-review-experiment/](examples/pr-review-experiment/) for a full transcript of GPT-4 and Claude reviewing each other's code — with model-diff output showing where they systematically diverge.
+
+Read the full story: [I Put GPT-4 and Claude in the Same Repo and Made Them Review Each Other's PRs. It Got Weird.](https://dev.to/lakshmisravyavedantham/i-put-gpt-4-and-claude-in-the-same-repo-and-made-them-review-each-others-prs-it-got-weird-148e)
+
 ## License
 
 MIT
